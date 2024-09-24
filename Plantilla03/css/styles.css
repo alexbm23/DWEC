@@ -1,0 +1,123 @@
+ body {
+   background-color: rgba(95, 158, 160, 0.226);
+   text-align: justify;
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 14px;
+ }
+
+ .header {
+   background-color: #30A4CC;
+   text-align: center;
+   padding: 5px;
+   position: relative;
+   top: 0%;
+   left: 0%;
+   color: rgb(255, 250, 250, 0.90);
+   text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.75);
+   border: white solid 5px;
+   border-radius:2rem;
+   margin-bottom: 2rem;
+ }
+
+ .topnav {
+   overflow: hidden;
+   background-color: #FFCD2C;
+  border: white 5px solid;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  height: 3rem;
+  font-size: 16px;
+  text-shadow: 2px 2px 2px #000000;
+
+ }
+
+ .topnav a {
+   float: left;
+   display: block;
+   color:white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   text-shadow: none;
+ }
+
+ .topnav a:hover {
+   font-size: 18px;
+   color:#30A4CC ;
+   border-radius: 1rem;
+   transition: 0.5s;
+ }
+
+ .container {
+
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 16px;
+ }
+
+ .card {
+  background-color: #30A4CC;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: auto;
+   border: 5px solid white;
+   border-radius: 15px;
+   font-family: sans-serif;
+ }
+
+ .cardTitle {
+   font-size: 24px;
+   padding: 10px 10px 0 10px;
+   background-color: #FFCD2C;
+   border-radius: 9px 9px 0 0;
+   color: white;
+   padding: 10px;
+   text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
+   
+ }
+
+ .cardBody {
+   padding: 10px;
+   flex: 1 1 100%;
+   text-align: center;
+ }
+
+ .cardFooter {
+   background-color: #FFCD2C;
+   border-radius: 0 0 9px 9px;
+   padding: 10px;
+   text-align: center;
+ }
+
+ .cardFooter a {
+   text-decoration: none;
+   color: white;
+   text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
+   font-size: 16px;
+
+ }
+
+
+
+ @media screen and (max-width: 600px) {
+   .container {
+     width: 100%;
+   }
+ }
+
+ .footer {
+   background-color: #30A4CC;
+   border-radius: 2rem;
+   border: white 5px solid;
+   text-align: center;
+   padding: 20px;
+   position: absolute;
+   width: 97vi;
+   bottom: 2%;
+   left: 0%;
+   color: rgb(255, 250, 250, 0.90);
+   text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.75);
+ }
+
