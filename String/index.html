@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript</title>
+  <link href="./img/favicon.ico" rel="icon" type="image/x- icon">
+  <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+  <script defer src="./js/login.js" ></script>
+  <script defer src="./js/cookies.js"></script>
+  <script defer src="./js/navigation.js"></script>
+</head>
+
+<body>
+  
+  <div id="general-container">
+  <!-- --------HEADER---------- -->
+  <div class="header">
+
+    <div id="closeContainer">
+      <p>Bienvenido </p>
+      <p id="registeredUsername"></p>
+      <button id="cerrarSesionButton">Cerrar Sesión</button>
+    </div>
+    
+    <div id="headerContainer">
+    <h3>Ejercicios de JavaScript</h3>
+    <h4>Desarrollo WEB en entorno cliente</h4>
+    
+  </div>
+    <img src="./img/image.png" alt="" id="imagenPersonal">
+  </div>
+  <!-- ---------MENU----------- -->
+  <div id="topnav">
+
+    <a href="https://www.w3schools.com/js/default.asp">w3schools</a>
+    <a href="https://es.javascript.info/js">javascript.info</a>
+    <a href="https://developer.mozilla.org/es/docs/Web/JavaSc
+ript">MDN</a>
+<a href="https://github.com/alexbm23/DWEC" target="_blank">GitHub</a>
+<span id="numberSection">NUMBER</span>
+<span id="stringSection">STRING</span>
+  </div>
+  <br />
+  <!-- ------MAIN-CONTENT------ -->
+   <div id="registerForm">
+  <div id="loginCard">
+    <h1>Registro: </h1>
+    <form action="" method="post" id="formulario">
+      <div class="labelContainer">
+        <label for="newUser">Nuevo usuario: </label>
+        <input type="text" name="newUser" id="newUser" placeholder="Introduce aquí tu nuevo usuario" required>
+      </div>
+      <div class="labelContainer">
+        <label for="newPassword">Nueva contraseña: </label>
+        <input type="password" name="newPassword" id="newPassword" placeholder="Introduce aquí tu nueva contraseña" required>
+      </div>
+      <div id="formRegisterButton">
+        <button id="submitRegister" type="button">Registrarme</button>
+      </div>
+      <div id="registerErrorMsg">
+        Usuario o contraseña incorrectos o ya registrados
+      </div>
+    </form>
+  </div>
+</div>
+  <div id="loginForm">
+    <div id="loginCard">
+      <h1>Introduce tus credenciales :D</h1>
+      <form action="">
+        <div class="labelContainer">
+        <label for="username">Usuario: </label>
+        <input type="text" name="username" id="username" placeholder="admin" value="admin" required>
+      </div>
+      <div class="labelContainer">
+        <label for="password">Contraseña: </label>
+        <input type="password" name="password" id="password" placeholder="admin" value="admin" required>
+        <div id="errorMsg">
+          Usuario o contraseña incorrectos
+        </div>
+      </div>
+
+      <div id="loginButtonContainer">
+        <button type="submit">Iniciar Sesión</button>
+      </div>
+
+      <div id="separator"></div>
+
+      <div id="registerButtonContainer">
+        <button type="button" id="registerButton"> Registrarme </button>
+      </div>
+      </form>
+    </div>  
+  
+
+
+
+  </div>
+
+  <div id="container">
+    <div class="card">
+      <div class="cardTitle">Titulo ejercicio 01</div>
+      <div class="cardBody">
+        <p>Descripción del ejercicio 01</p>
+      </div>
+      <div class="cardFooter"><a href="./ejercicios/ejer01/index.html">&gt;&gt; Solución</a></div>
+    </div>
+    <div class="card">
+      <div class="cardTitle">Titulo ejercicio 02</div>
+      <div class="cardBody">
+        <p>Descripción del ejercicio 02</p>
+
+      </div>
+      <div class="cardFooter"><a href="./ejercicios/ejer02/index.html">&gt;&gt; Solución</a></div>
+    </div>
+    <div class="card">
+      <div class="cardTitle">...</div>
+      <div class="cardBody">
+        <p>...</p>
+      </div>
+      <div class="cardFooter"><a href="#">&gt;&gt; Solución</a></div>
+    </div>
+  </div>
+  <br />
+  <!-- ---------FOOT----------- -->
+  <div class="footer">
+    Alejandro Barnestein Martos
+  </div>
+</div>
+</body>
+
+</html>
