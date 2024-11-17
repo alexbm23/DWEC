@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/aleatorio.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones con Matrices</title>
+</head>
+<body>
+
+
+
+    <div id="container">
+        <div id="header">
+            Operaciones básicas con matrices   
+        </div>
+
+        <div id="modWrapper">
+            <div class="headerWrapper"><h1 id="modHeader">
+                Introduce la dimensión de la matriz:
+            </h1>
+            <input type="text" id="modInput"></div>
+            
+           <div id="buttonsWrapper">
+            <button id="generarMatrices">Generar matrices</button>
+            <button id="sumarMatrices">Sumar matrices</button>
+            <button id="restarMatrices">Restar matrices</button>
+            <button id="multiplicarMatrices">Multiplicar matrices</button>
+           </div>
+
+           <div id="solucionWrapper">
+            <div class="matriz"><span>Matriz A</span><div class="matrizGenerada" id="matrizA"></div>
+            </div>
+            <div class="matriz"><span>Matriz B</span><div class="matrizGenerada" id="matrizB"></div></div>
+            <div class="matriz"><span>Resultado:</span><div class="matrizGenerada" id="matrizResultado"></div></div>
+           </div>
+
+           <div id="aleatorioWrapper">
+            <button class="aleatorioButton" id="aleatorioButton">Aleatorio</button>
+            <button class="aleatorioButton" id="pararButton">Parar</button>
+            <button class="aleatorioButton" id="rapidoButton">Rapido</button>
+            <button class="aleatorioButton" id="lentoButton">Lento</button>
+           </div>
+
+        <div id="backPage">
+            <a href="/index.html" ><h4>Volver atrás</h1></a>
+        </div>
+
+    </div>
+    
+</body>
+</html>

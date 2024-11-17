@@ -1,0 +1,160 @@
+body {
+  background-color: rgba(95, 158, 160, 0.226);
+  text-align: justify;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  color: #757E82;
+  height: 100vh;
+  
+}
+
+#container {
+  margin: 0 auto;
+  width: 777px;
+  background:#fff;
+  border: white 4px solid;
+  border-radius: 15px;
+  height: 777px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+#header {
+  background-color: #30A4CC;
+  text-align: center;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  border-radius: 15px;
+  height: 20%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 4px solid white;
+}
+
+#header h1 {
+  font-size: 24px;
+  margin: 0.6em;
+}
+#header h2 {
+  font-size: 20px;
+  margin: 0.2em;
+}
+
+#content {
+  background-color: #FFCD2C;
+  width: 100%;
+  height: 70%;
+  border-radius: 15px;
+  border: 4px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gridContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+}
+
+.calcSelection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: white solid 4px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  background-color: rgba(95, 158, 160, 0.226);
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.calcSelection p{
+  font-size: x-large;
+  text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.calcSelection input{
+  padding: 10px;
+  width: 50%;
+  border: white 4px solid;
+  border-radius: 15px;
+  background-color: #30A4CC;
+  color: white;
+}
+
+#content a{
+  text-decoration: none !important;
+  font-size: large;
+  color: white;
+  border: white solid 2px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #30A4CC;
+  margin-bottom: 2%;
+}
+
+#content a:hover{
+  box-shadow: grey 4px 4px ;
+  transition: 0.5s;
+}
+
+
+
+#content h2 {
+  color:#000;
+  font-size: 160%;
+  margin: 0 0 .5em;
+}
+
+#footer {
+  color: white;
+  background-color: #30A4CC;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  border-radius: 15px;
+  border: 4px solid white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+/*
+li {
+  padding: 18px;
+}
+
+a {
+  color: #429;
+  text-decoration: none;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse:collapse;
+  padding: 4px;
+}
+
+input {
+  margin: 6px;
+}
+*/
