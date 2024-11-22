@@ -1,0 +1,120 @@
+body {
+    height: 100%;
+    font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+
+#container{
+    border: black 4px solid;
+    height: 777px;
+    width: 777px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #FFCD2C;
+    padding: 1%;
+}
+
+#header{
+    background-color: #30A4CC;
+    text-align: center  ;
+    font-size: x-large;
+    height: 5%;
+    padding: 5px;
+    border: 4px solid white;
+    border-radius: 15px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+}
+
+#conversorWrapper{
+    border: 4px solid white;
+    height: 85%;
+    background-color: #30A4CC;
+    border-radius: 15px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center     ;
+}
+
+#conversorInput{
+    width: 50%;
+    height: 10%;
+    border-radius: 15px;
+    border: black 2px solid;
+    font-size: x-large;
+    padding-left: 10px;
+}
+
+#conversorWrapper h1{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;}
+
+#converButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    width: 85%;
+}
+
+#b16{
+    width: 25%;
+}
+
+
+#b8{
+    width: 25%;
+}
+
+#b2{
+    width: 25%;
+}
+ #converButtons button{
+    height: 50%;
+    background-color: #FFCD2C;
+    border: 4px solid white;
+    border-radius: 15px;
+    margin: auto;
+    font-size: large;
+    color: white;
+} 
+
+#converButtons button:hover{
+    box-shadow:grey 4px 4px;
+    transition: 0.5s;
+}
+#result span{
+    padding: 10px;
+    background-color: #FFCD2C;
+    border: 4px solid white;
+    border-radius: 15px;
+    
+}
+
+#trueResult{
+    display: none;
+    text-align: center;
+}
+
+
+#backPage{
+    height: 5%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    text-align: center;
+}
+
+#backPage a{
+    text-decoration: none !important; 
+    color: white;  
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+
+

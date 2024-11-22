@@ -1,0 +1,174 @@
+body {
+    height: 100%;
+    font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+
+#container {
+    border: black 4px solid;
+    height: 777px;
+    width: 777px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #FFCD2C;
+    padding: 1%;
+}
+
+#header {
+    background-color: #30A4CC;
+    text-align: center;
+    font-size: x-large;
+    height: 5%;
+    padding: 5px;
+    border: 4px solid white;
+    border-radius: 15px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+}
+
+#modWrapper {
+    border: 4px solid white;
+    height: 85%;
+    background-color: #30A4CC;
+    border-radius: 15px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.headerWrapper {
+
+    position: absolute;
+    top: 30px;
+    width: 80%;
+
+
+
+
+}
+
+.headerWrapper button{
+    margin-top: 15px;
+}
+
+#modHeader {
+    font-size: x-large;
+    color: white;
+    margin-bottom: 7px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#modWrapper__inputWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.inputCover{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.modInput {
+    width: 80%;
+    height: 30%;
+    border-radius: 15px;
+    border: black 2px solid;
+    font-size: large;
+    padding-left: 20px;
+    text-align: start;
+    padding: 5px;
+    margin:auto ;
+
+}
+
+
+
+td button{
+    margin: 0;
+}
+td{
+    margin-bottom: 10px;
+}
+
+
+
+button {
+    background-color: #FFCD2C;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    width: 100px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+
+}
+
+
+
+#solucionWrapper {
+    width: 90%;
+    height: 350px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 225px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+
+#tabla-Solucion{
+    width: 100%;
+    overflow-y: auto;
+   max-height: 300px;
+    
+}
+
+#tabla-Solucion table{
+    width: 70%;
+}
+
+
+#tabla-Solucion th{
+    text-align: left;
+    width: 30%;
+
+}
+
+
+
+#backPage {
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+}
+
+#backPage a {
+    text-decoration: none !important;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}

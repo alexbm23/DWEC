@@ -1,0 +1,102 @@
+body {
+    height: 100%;
+    font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+
+#container{
+    border: black 4px solid;
+    height: 777px;
+    width: 777px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #FFCD2C;
+    padding: 1%;
+}
+
+#header{
+    background-color: #30A4CC;
+    text-align: center  ;
+    font-size: x-large;
+    height: 5%;
+    padding: 5px;
+    border: 4px solid white;
+    border-radius: 15px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+}
+
+#modWrapper{
+    border: 4px solid white;
+    height: 85%;
+    background-color: #30A4CC;
+    border-radius: 15px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center     ;
+}
+
+#modHeader{
+    font-size: x-large;
+    color: white;
+    margin-bottom: 7px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#modInput{
+    width: 80%;
+    height: 25%;
+    border-radius: 15px;
+    border: black 2px solid;
+    font-size: large;
+    padding-left: 10px;
+    text-align: start;
+}
+
+#conversorWrapper h1{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;}
+
+#buttonsWrapper{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    align-items: center;
+
+}
+
+#buttonsWrapper button{
+    background-color: #FFCD2C;
+     border-radius: 5px;
+     padding: 5px;
+     margin-left: 5px;
+     width: 65px;
+     border: 2px solid black;
+     margin-bottom: 15px;
+    
+}
+
+
+
+
+#backPage{
+    height: 5%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    text-align: center;
+}
+
+#backPage a{
+    text-decoration: none !important; 
+    color: white;  
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+
+
